@@ -79,7 +79,7 @@ namespace SendMail
             MailMessage message = new MailMessage();
             to = txtmail.Text;
             from = "alexpodrolla@gmail.com";
-            pass = "Alexandr163!";
+            pass = "********";
             messageBody = txtmess.Text;
             message.To.Add(to);
             message.From = new MailAddress(from);
